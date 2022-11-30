@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Navbar Start */
+
+.logo{
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #000000;
+    height: 80px;
+    position: fixed;
+    transition: 0.6s;
+}
+.navbar.sticky{
+    padding: 15px 80px;
+    background-color: #2D033B;
+    height: 100px;
+    position: fixed;
+    z-index: 1000;
+}
+nav .social{
+    display: flex;
+}
+
+nav .social i:hover{
+    color: #eec53d;
+}
+nav ul{
+    display: flex;
+
+}
+nav ul li{
+    margin-left: 30px;
+   
+}
+
+nav i{
+    color: #fff;
+}
+nav ul li a{ 
+    color: #fff;
+}
+
+nav ul li a:hover{
+    color: #eec53d;
+    transition: 0.3s;
+}
+
+
+.navbar.sticky ul li a{
+    color:#fff ;
+}
+.navbar.sticky i{
+    color: #fff;
+}
+
+i{
+    color: black;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.div{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+
+/* Navbar End */
+
+
+
+.hours{
+    background-color: #2B3A55;
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding-top: 150px;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+
+}
+
+
+.hours .main-page{
+    background-color: #E8C4C4;
+    height: 500px;
+    width: 80%;
+    border-radius: 20px;
+
+}
+
+
+.hours .main-page h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+.hours .main-page p{
+    font-size: 32px;
+    margin-top: 30px;
+    text-align: center;
+}
+.hours .event{
+    background-color: #E8C4C4;
+    height: 400px;
+    width: 70%;
+    border-radius: 20px;
+}
+
+.hours .event h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    
+}
+
+.hours .event p{
+    font-size: 32px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    
+}
+.images .first-line{
+    display: flex;
+    column-gap: 40px;
+}
+
+
+.images .second-line{
+    display: flex;
+    column-gap: 40px;
+}
+
+.images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.images .first,.second,.third,.fourth{
+    width: 650px;
+    height: 300px;
+}
+
+
+.video{
+    width: 600px;
+    height: 600px;
+}
